@@ -18,7 +18,7 @@ public class TraditionalSearch {
 
 	private static void print(List<Animal> animals, CheckTrait checkIfHopper) {
 		for(Animal animal : animals) {
-			if(checkIfHopper.test(animal)) {
+			if(checkIfHopper.aTester(animal)) {
 				System.out.print(animal + " ");
 			}
 		}

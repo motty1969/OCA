@@ -1,5 +1,5 @@
 package lambdas;
 
 public interface CheckTrait {
-	boolean test(Animal a);
+	boolean aTester(Animal a);
 }
